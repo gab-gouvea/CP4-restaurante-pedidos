@@ -1,7 +1,7 @@
 # Sistema de Pedidos - Restaurante 🍽️
 
 Projeto de exemplo em **Java + JDBC + MySQL** para gerenciar pedidos de um restaurante.  
-Inclui operações de **CRUD** (Create, Read, Update, Delete) sobre a entidade `Pedido`.
+Inclui operações de **CRUD** ainda incompleto com (Create, Read) sobre a entidade `Pedido`.
 
 ---
 
@@ -11,13 +11,13 @@ Inclui operações de **CRUD** (Create, Read, Update, Delete) sobre a entidade `
 - `br.com.restaurante.pedidos.dao.PedidoDAO` → interface do DAO.
 - `br.com.restaurante.pedidos.dao.PedidoDAOImpl` → implementação do DAO usando JDBC.
 - `br.com.restaurante.pedidos.singleton.ConexaoBD` → singleton responsável por criar/gerenciar a conexão com o banco.
-- `Main.java` → exemplo de uso do DAO (inserir, buscar, listar, atualizar, deletar).
+- `pedidosMain.java` → exemplo de uso do DAO (inserir, buscar, listar, atualizar, deletar).
 
 ---
 
 ## ⚙️ Requisitos
 
-- Java 17+ (ou a versão que você estiver usando).
+- Java 23
 - MySQL rodando localmente.
 - Driver JDBC do MySQL (mysql-connector-j) no **classpath**.
 
