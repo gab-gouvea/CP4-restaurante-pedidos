@@ -53,7 +53,7 @@ CREATE TABLE item_pedido (
 No arquivo ConexaoBD.java, ajuste com suas credenciais do MySQL:
 
 ```java
-instancia = DriverManager.getConnection(
+conn = DriverManager.getConnection(
     "jdbc:mysql://localhost:3306/restaurante",
     "usuario",
     "senha"
