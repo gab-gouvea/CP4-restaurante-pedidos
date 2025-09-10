@@ -35,7 +35,7 @@ USE restaurante;
 CREATE TABLE pedido (
     id INT PRIMARY KEY,
     numero_mesa VARCHAR(20) NOT NULL,
-    valor_total DECIMAL(10,2) NOT NULL,
+    valor_total FLOAT NOT NULL,
     status VARCHAR(20) NOT NULL
 );
 
@@ -44,7 +44,7 @@ CREATE TABLE item_pedido (
     pedido_id INT NOT NULL,
     nome VARCHAR(100) NOT NULL,
     quantidade INT NOT NULL,
-    preco DECIMAL(10,2) NOT NULL,
+    preco FLOAT NOT NULL,
     FOREIGN KEY (pedido_id) REFERENCES pedido(id)
 
 ```
