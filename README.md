@@ -11,7 +11,7 @@ Inclui operações de **CRUD** ainda incompleto com (Create, Read) sobre a entid
 - `br.com.restaurante.pedidos.dao.PedidoDAO` → interface do DAO.
 - `br.com.restaurante.pedidos.dao.PedidoDAOImpl` → implementação do DAO usando JDBC.
 - `br.com.restaurante.pedidos.singleton.ConexaoBD` → singleton responsável por criar/gerenciar a conexão com o banco.
-- `pedidosMain.java` → exemplo de uso do DAO (inserir, buscar, listar, atualizar, deletar).
+- `br.com.restaurante.pedidos.pedidosMain.AppPedido.java` → exemplo de uso do DAO (inserir, buscar, listar, atualizar, deletar).
 
 ---
 
